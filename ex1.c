@@ -1,7 +1,5 @@
 #include "stdio.h"
 
-int test();
-
 
 int main(){
 
@@ -27,9 +25,4 @@ int main(){
     test(1);
 
     return 0;
-}
-
-int test(int x){
-    printf("hello");
-    test(x);
 }
